@@ -2,13 +2,17 @@
 .section_form_1{
 /*    max-width: 200px;  Задать ширину*/
 /*    max-height: 800px; Задать высоту*/
-    overflow: hidden;
+/*    overflow: hidden;*/
     float: left;
+    position: relative;
 }
 .section_form_1 input{
     height: 20pt;
     font-size: 11pt;
     margin-top: 5pt;
+}
+.section_form_1 input[type="text"]{
+    width: 100%;
 }
 .section_form_1 form .col{
     overflow-x: hidden;
