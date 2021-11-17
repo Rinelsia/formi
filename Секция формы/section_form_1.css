@@ -1,0 +1,15 @@
+/*Общи настройки контейнера*/
+.section_form_1{
+/*    max-width: 200px;  Задать ширину*/
+/*    max-height: 800px; Задать высоту*/
+    overflow: hidden;
+    float: left;
+}
+.section_form_1 input{
+    height: 20pt;
+    font-size: 11pt;
+    margin-top: 5pt;
+}
+.section_form_1 form .col{
+    overflow-x: hidden;
+}
